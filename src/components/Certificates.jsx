@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
+import htmlCert from "../images/Certificates/html-cert.jpg";
+
 function Certificates() {
   const certificates = [
     {
       title: "HTML Essentials",
       issuer: "Cisco Networking Academy",
       date: "May 15, 2025",
-      image: `${import.meta.env.BASE_URL}/images/Certificates/html-cert.jpg`,
+      image: htmlCert,
     },
     {
       title: "Certificate Title 2",

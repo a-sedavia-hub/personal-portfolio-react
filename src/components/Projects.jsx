@@ -1,3 +1,5 @@
+import project1 from "../images/project-pic/sample-project-1.png";
+
 function Projects() {
   const projects = [
     {
@@ -5,7 +7,7 @@ function Projects() {
       description:
         "A web-based system designed to manage lost and found items efficiently.",
       status: "ONGOING",
-      image: "/images/project-pic/sample-project-1.png",
+      image: project1,
       category: "Web Development",
       github:
         "https://github.com/a-sedavia-hub/centralized-lost-and-found-system",

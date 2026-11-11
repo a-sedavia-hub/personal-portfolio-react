@@ -1,3 +1,6 @@
+import sunLogo from "../images/header/sun.png";
+import moonLogo from "../images/header/moon.png";
+
 function Navbar({ isDark, toggleTheme }) {
   return (
     <header className="navbar">
@@ -18,10 +21,7 @@ function Navbar({ isDark, toggleTheme }) {
           onClick={toggleTheme}
           aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
         >
-          <img
-            src={isDark ? "/images/header/sun.png" : "/images/header/moon.png"}
-            alt=""
-          />
+          <img src={isDark ? sunLogo : moonLogo} alt="" />
         </button>
       </div>
     </header>

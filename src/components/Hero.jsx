@@ -1,3 +1,6 @@
+import hero from "../images/hero/hero-sedavia.png";
+import heroDark from "../images/hero/hero-sedavia-night.png";
+
 function Hero({ isDark }) {
   return (
     <section className="hero" id="about">
@@ -29,11 +32,7 @@ function Hero({ isDark }) {
 
       <div className="hero-image-wrapper">
         <img
-          src={
-            isDark
-              ? "/images/hero/hero-sedavia-night.png"
-              : "/images/hero/hero-sedavia.png"
-          }
+          src={isDark ? heroDark : hero}
           alt="photo of Alvhir Sedavia"
           className="profile-image"
         />

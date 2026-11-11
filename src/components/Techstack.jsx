@@ -1,13 +1,22 @@
+import htmlLogo from "../images/tech/html-logo.png";
+import cssLogo from "../images/tech/css-logo.png";
+import jsLogo from "../images/tech/javascript-logo.png";
+import reactLogo from "../images/tech/react-logo.png";
+import pyLogo from "../images/tech/python-logo.png";
+import mysqlLogo from "../images/tech/mysql-logo.png";
+import gitLogo from "../images/tech/git-logo.png";
+import javaLogo from "../images/tech/java.png";
+
 function Techstack() {
   const technologies = [
-    { name: "HTML5", logo: "/images/tech/html-logo.png" },
-    { name: "CSS3", logo: "/images/tech/css-logo.png" },
-    { name: "JavaScript", logo: "/images/tech/javascript-logo.png" },
-    { name: "React", logo: "/images/tech/react-logo.png" },
-    { name: "Python", logo: "/images/tech/python-logo.png" },
-    { name: "MySQL", logo: "/images/tech/mysql-logo.png" },
-    { name: "Git", logo: "/images/tech/git-logo.png" },
-    { name: "Java", logo: "/images/tech/java.png" },
+    { name: "HTML5", logo: htmlLogo },
+    { name: "CSS3", logo: cssLogo },
+    { name: "JavaScript", logo: jsLogo },
+    { name: "React", logo: reactLogo },
+    { name: "Python", logo: pyLogo },
+    { name: "MySQL", logo: mysqlLogo },
+    { name: "Git", logo: gitLogo },
+    { name: "Java", logo: javaLogo },
   ];
 
   return (

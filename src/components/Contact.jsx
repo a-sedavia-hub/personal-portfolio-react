@@ -1,3 +1,7 @@
+import emailLogo from "../images/footer/email-logo.png";
+import fbLogo from "../images/footer/facebook-logo.png";
+import ghLogo from "../images/footer/github-logo.png";
+
 function Contact() {
   return (
     <footer className="contact" id="contact">
@@ -12,7 +16,7 @@ function Contact() {
 
         <div className="social-links">
           <a href="mailto:alvhir.sedavia@cvsu.edu.ph" aria-label="Email">
-            <img src="/images/footer/email-logo.png" alt="Email" />
+            <img src={emailLogo} alt="Email" />
           </a>
           <a
             href="https://github.com/a-sedavia-hub"
@@ -20,7 +24,7 @@ function Contact() {
             rel="noopener noreferrer"
             aria-label="GitHub"
           >
-            <img src="/images/footer/github-logo.png" alt="GitHub" />
+            <img src={ghLogo} alt="GitHub" />
           </a>
           <a
             href="https://www.facebook.com/asedavia.21"
@@ -28,7 +32,7 @@ function Contact() {
             rel="noopener noreferrer"
             aria-label="Facebook"
           >
-            <img src="/images/footer/facebook-logo.png" alt="Facebook" />
+            <img src={fbLogo} alt="Facebook" />
           </a>
         </div>
       </div>
