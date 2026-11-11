@@ -5,7 +5,7 @@ function Certificates() {
       title: "HTML Essentials",
       issuer: "Cisco Networking Academy",
       date: "May 15, 2025",
-      image: "/public/images/Certificates/html-cert.jpg",
+      image: "/images/Certificates/html-cert.jpg",
     },
     {
       title: "Certificate Title 2",
